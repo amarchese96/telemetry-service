@@ -51,5 +51,5 @@ func main() {
 	router.GET("/metrics/svc/avg-traffic", getAvgSvcTraffic)
 	router.GET("/metrics/node/avg-latencies", getAvgNodeLatencies)
 
-	router.Run("0.0.0.0:8081")
+	router.Run("0.0.0.0:8080")
 }
